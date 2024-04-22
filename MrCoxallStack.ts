@@ -20,7 +20,7 @@
   }
 
   // Pushes the values to the stack
-  public push(string: stringPushed) {
+  public push(stringPushed: string) {
     this.stackList.push(stringPushed)
   }
 
@@ -30,7 +30,7 @@
     if (this.stackList.length > 0) {
       let topItem = this.stackList[this.stackList.length - 1]
       this.stackList.Length = this.stackList.length - 1
-      reuturnValue = topItem
+      returnValue = topItem
     } else {
       returnValue = "The stacks is empty!"
     }
